@@ -16,7 +16,7 @@ node_modules/
 .settings
 .springBeans
 .sts4-cache
-
+.parcel-cache/
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -35,3 +35,4 @@ build/
 
 ### VS Code ###
 .vscode/
+

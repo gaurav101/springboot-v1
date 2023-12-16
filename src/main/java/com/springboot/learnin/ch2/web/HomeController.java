@@ -26,6 +26,10 @@ public class HomeController {
         videoService.create(newVideo);
         return "redirect:/";
     }
+    @GetMapping("/react-app")
+    public String ui(){
+        return "react";
+    }
 
 
 }
